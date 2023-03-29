@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🎲DICE ME🎲</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h2 class="header-primary">WHO WANT'S TO BE RICH💰</h2>
+        <p class="header-secondary">FIRST TO MAKE $100✨ DICE ME🎲</p>
+        <button class="button button-HTP">how to play🎮</button>
+        <button class="button non-audio button-audio-1">🔇</button>
+        <button class="button audio button-audio-2">🔊</button>
+
+        <audio class="audioplay" preload="auto" autobuffer autoplay>
+          <source
+            src="Charlie Puth - We Dont Talk Anymore (Ft. Selena Gomez)(VipMusic.In).mp3"
+            type="audio/mp3"
+          />
+          <source
+            src="Charlie Puth - We Dont Talk Anymore (Ft. Selena Gomez)(VipMusic.In).mp3"
+            type="audio/mp3"
+          />
+        </audio>
+      </div>
+      <div class="howToPlay">
+        <button class="button button-back">&times;🌀</button>
+
+        <h2>HOW TO PLAY🎮</h2>
+        <p>to first player to accumulate a make $100 first wins!</p>
+        <p>clcik🎲 ROLL DICE to get a random cash betweeen $1 - $6</p>
+        <p>📈continue rolling the dice to accumulat plenty cash</p>
+        <p>
+          👎any player that rools dicee 1 loses his turn and accumlated cash
+        </p>
+        <p>🔐🔑click on HOLD to store accumulated cash and lose your turn</p>
+        <p>🎉the greedy can win! or lose! so PLAY SAFE🏅</p>
+        <p>🔑'ESC' or 'i' ==> How to Play</p>
+        <p>🔑'r' or d ==> Roll Dice</p>
+        <p>🔑'h' or 'b' ==> Hold</p>
+        <p>🔑'z' or 'n' ===> New Game</p>
+        <p>🔑's' ===> sound on</p>
+        <p>🔑'p' ===> sound off</p>
+        <p>GOODLUCK</p>
+      </div>
+
+      <section class="player player--0 player--active">
+        <h2 class="name" id="name--0">player 1</h2>
+        <p class="score" id="score--0">43</p>
+        <div class="current">
+          <p class="current-label">current</p>
+          <p class="current-score" id="current--0">0</p>
+        </div>
+      </section>
+
+      <section class="player player--1">
+        <h2 class="name" id="name--1">player 2</h2>
+        <p class="score" id="score--1">55</p>
+        <div class="current">
+          <p class="current-label">current</p>
+          <p class="current-score" id="current--1">0</p>
+        </div>
+      </section>
+
+      <div class="btn--move">
+        <img src="dice-5.png" alt="playing dice" class="dice" />
+        <button class="btn btn--new">🔄NewGame</button>
+        <button class="btn btn--roll">🎲Rolldice</button>
+        <button class="btn btn--hold">📥hold</button>
+      </div>
+
+      <div class="overlay hidden"></div>
+
+      <footer class="footer_copyright">
+        copyright@onwuakpauchenna@gmail.com All rights reserved. web design and
+        Game developed by @onwuakpa uchenna.
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
